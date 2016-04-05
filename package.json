@@ -1,6 +1,6 @@
 {
-  "name": "react-mdl",
-  "version": "1.5.2",
+  "name": "trent-super-components",
+  "version": "0.0.1",
   "description": "React Components for Material Design Lite",
   "main": "lib/index.js",
   "jsnext:main": "src/index.js",
@@ -43,7 +43,9 @@
   "license": "MIT",
   "dependencies": {
     "clamp": "^1.0.1",
-    "classnames": "^2.2.3"
+    "classnames": "^2.2.3",
+    "jquery": "^2.2.2",
+    "jquery-inview": "^1.1.2"
   },
   "devDependencies": {
     "babel-cli": "^6.6.5",

@@ -16,8 +16,8 @@ export default class SuperImage extends React.Component {
   isInView() {
     const node = ReactDOM.findDOMNode(this);
 
-    $(node).on('inview', (event, isInView) => {
-      $(node).off('inview');
+    window.$(node).on('inview', (event, isInView) => {
+      window.$(node).off('inview');
       this.setState({ isInView });
 
       const image = new Image();
