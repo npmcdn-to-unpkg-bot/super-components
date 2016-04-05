@@ -43,3 +43,4 @@ export Switch from './Switch';
 export { Tabs, Tab, TabBar } from './Tabs';
 export Textfield from './Textfield';
 export Tooltip from './Tooltip';
+export SuperImage from './SuperImage';
